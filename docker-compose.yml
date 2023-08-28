@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  laravel-docker-otentikasi-and-verifikasi-email:
+    container_name: laravel-docker-otentikasi-and-verifikasi-email
+    build: .
+    image: "laravel-docker-otentikasi-and-verifikasi-email:1.0.0"
+    volumes:
+      - ./my-project:/var/www/my-project
+    ports:
+      - 9000:80
