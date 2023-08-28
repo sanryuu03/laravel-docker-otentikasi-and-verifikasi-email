@@ -8,5 +8,6 @@ services:
     image: "laravel-docker-otentikasi-and-verifikasi-email:1.0.0"
     volumes:
       - ./my-project:/var/www/my-project
+      - ./vhost.conf:/etc/apache2/sites-enabled/000-default.conf
     ports:
       - 9000:80
