@@ -51,7 +51,7 @@ This is a [Laravel](https://laravel.com).
 
       composer create-project laravel/laravel .
       cd ..
-      chown -R www-data:www-data .
+
 
 - ganti permissions folder laravel-docker-otentikasi-and-verifikasi-email (optional)
 
@@ -62,11 +62,3 @@ This is a [Laravel](https://laravel.com).
 - copy file .htaccess to folder laravel-docker-otentikasi-and-verifikasi-email
 
       laravel is ready to use
-
-- run VS Code with the root privileges
-
-      sudo code . --user-data-dir='.' --no-sandbox
-
-# Referensi
-
-- laravel-docker-otentikasi-and-verifikasi-email : [click here](https://github.com/pitocms/laravel-docker-otentikasi-and-verifikasi-email)
