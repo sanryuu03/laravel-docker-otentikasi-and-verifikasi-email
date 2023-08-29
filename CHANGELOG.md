@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.6 (2023-08-29)
+
+- MustVerifyEmail
+
 ## v1.0.5 (2023-08-29)
 
 - php artisan migrate
